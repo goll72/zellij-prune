@@ -1,0 +1,12 @@
+[package]
+name = "zellij-prune"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "zellij-prune"
+path = "src/main.rs"
+
+[dependencies]
+zellij-utils = "=0.45.1"
+clap = { version = "4", features = ["derive"] }
